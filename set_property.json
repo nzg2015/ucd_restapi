@@ -1,0 +1,11 @@
+ {
+   "applicationProcessVersion": 20,
+   "description": "Test Property set by REST API",
+   "existingId": "",
+   "label": "Test Property",
+   "name": "test_property",
+   "pattern": "",
+   "required": "false",
+   "type": "TEXT",
+   "value": "Hello World"
+ }

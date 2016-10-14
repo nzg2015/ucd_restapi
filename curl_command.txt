@@ -1,0 +1,5 @@
+curl -v -k -u <USERID>:<PASSWORD> <UCD_SERVER>/cli/component?active=true
+curl -v -k -u <USERID>:<PASSWORD> <UCD_SERVER>/cli/application/environmentsInApplication?application=<UCD_APPLICATION>
+curl -v -k -u <USERID>:<PASSWORD> <UCD_SERVER>/rest/deploy/applicationProcess
+curl -v -k -u <USERID>:<PASSWORD> <UCD_SERVER>/rest/deploy/applicationProcess/8224cb11-1c08-48a6-92bf-8c90174ab5f4/20/propDefs
+curl -v -k -u <USERID>:<PASSWORD> <UCD_SERVER>/rest/deploy/applicationProcess/8224cb11-1c08-48a6-92bf-8c90174ab5f4/savePropDef" -X PUT -d @set_property.json
